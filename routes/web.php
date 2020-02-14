@@ -22,3 +22,7 @@ Route::get('/data',function (){
 Route::get('/nf', function () {
     return view('svgAndGraph');
 });
+
+Route::get('/jst',function (){
+    return view('javascript');
+});
